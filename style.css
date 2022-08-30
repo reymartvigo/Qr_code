@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(212,225,238)
+         
+}
+
+.container{
+    border: none;
+    border-radius: 30px;
+    background: hsl(0, 0%, 100%);
+    width: 260px;
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 6%;
+    font-family : 'Nanum Gothic', sans-serif;
+    font-family : 'Roboto', sans-serif;
+    font-family : 'Roboto Slab', serif; 
+}
+.qr-code{
+    display: inline;
+    align-items: center;
+}
+.qr-code img{
+   margin: 23px;
+   border: none;
+   border-radius: 10px;
+
+}
+.qr-code h3{
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.qr-code p{
+    margin: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+    font-weight: 400;
+}
+
